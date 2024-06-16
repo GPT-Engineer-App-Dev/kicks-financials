@@ -3,7 +3,7 @@ import { FaEdit, FaTrash } from 'react-icons/fa';
 
 const TransactionList = ({ transactions, editTransaction, deleteTransaction }) => {
   return (
-    <div>
+    <div className="p-4 bg-gray-100 rounded-lg shadow-md">
       <h2 className="text-2xl font-bold mb-4">Transactions</h2>
       <table className="table w-full">
         <thead>
