@@ -1,3 +1,4 @@
+```jsx
 import React, { useState } from 'react';
 import TransactionForm from './components/TransactionForm';
 import TransactionList from './components/TransactionList';
@@ -22,15 +23,5 @@ function App() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Sneaker Purchase Tracker</h1>
-      <TransactionForm addTransaction={addTransaction} />
-      <TransactionList 
-        transactions={transactions} 
-        editTransaction={editTransaction} 
-        deleteTransaction={deleteTransaction} 
-      />
-    </div>
-  );
-}
-
-export default App;
+      <header className="mb-8">
+        <h1 className="text-

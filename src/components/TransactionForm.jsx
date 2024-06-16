@@ -16,7 +16,7 @@ const TransactionForm = ({ addTransaction }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4">
+    <form onSubmit={handleSubmit} className="mb-4 p-4 bg-gray-100 rounded-lg shadow-md">
       <div className="mb-2">
         <label className="block text-sm font-bold mb-1">Date</label>
         <input 
