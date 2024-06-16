@@ -18,7 +18,7 @@ const TransactionForm = ({ addTransaction }) => {
   return (
     <form onSubmit={handleSubmit} className="mb-4 p-4 bg-gray-100 rounded-lg shadow-md">
       <div className="mb-2">
-        <label className="block text-sm font-bold mb-1">Date</label>
+        <label className="block text-sm font-bold mb-1 text-secondary">Date</label>
         <input 
           type="date" 
           value={date} 
@@ -28,7 +28,7 @@ const TransactionForm = ({ addTransaction }) => {
         />
       </div>
       <div className="mb-2">
-        <label className="block text-sm font-bold mb-1">Amount</label>
+        <label className="block text-sm font-bold mb-1 text-secondary">Amount</label>
         <input 
           type="number" 
           value={amount} 
@@ -38,7 +38,7 @@ const TransactionForm = ({ addTransaction }) => {
         />
       </div>
       <div className="mb-2">
-        <label className="block text-sm font-bold mb-1">Type</label>
+        <label className="block text-sm font-bold mb-1 text-secondary">Type</label>
         <select 
           value={type} 
           onChange={(e) => setType(e.target.value)} 
@@ -49,7 +49,7 @@ const TransactionForm = ({ addTransaction }) => {
         </select>
       </div>
       <div className="mb-2">
-        <label className="block text-sm font-bold mb-1">Category</label>
+        <label className="block text-sm font-bold mb-1 text-secondary">Category</label>
         <select 
           value={category} 
           onChange={(e) => setCategory(e.target.value)} 

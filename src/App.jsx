@@ -21,10 +21,10 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 bg-white rounded-lg shadow-md">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold mb-2">Sneaker Purchase Tracker</h1>
-        <p className="text-lg">Track your sneaker purchases easily and efficiently.</p>
+        <h1 className="text-4xl font-bold mb-2 text-primary">Sneaker Purchase Tracker</h1>
+        <p className="text-lg text-secondary">Track your sneaker purchases easily and efficiently.</p>
       </header>
       <main>
         <TransactionForm addTransaction={addTransaction} />
