@@ -24,4 +24,14 @@ function App() {
   return (
     <div className="container mx-auto p-4">
       <header className="mb-8">
-        <h1 className="text-
+        <h1 className="text-4xl font-bold mb-2">Sneaker Purchase Tracker</h1>
+        <p className="text-lg">Track your sneaker purchases easily and efficiently.</p>
+      </header>
+      <main>
+        <TransactionForm addTransaction={addTransaction} />
+        <TransactionList 
+          transactions={transactions} 
+          editTransaction={editTransaction} 
+          deleteTransaction={deleteTransaction} 
+        />
+      </main>
