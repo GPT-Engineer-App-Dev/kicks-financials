@@ -1,4 +1,3 @@
-```jsx
 import React, { useState } from 'react';
 import TransactionForm from './components/TransactionForm';
 import TransactionList from './components/TransactionList';
@@ -35,3 +34,8 @@ function App() {
           deleteTransaction={deleteTransaction} 
         />
       </main>
+    </div>
+  );
+}
+
+export default App;
